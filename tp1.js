@@ -86,3 +86,9 @@ for (let i = 6; i < 11; i++) {
 function supprimerCarte(numero) {
   document.getElementById("j1").removeChild();
 }
+
+// Ecrire la fonction "deplacerCarte" qui déplace la première carte en dernier
+function deplacerCarte() {
+  let carte1 = document.getElementById("j1").firstElementChild;
+  document.getElementById("j1").appendChild(carte1);
+}

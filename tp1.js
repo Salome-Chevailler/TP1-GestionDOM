@@ -92,3 +92,4 @@ function deplacerCarte() {
   let carte1 = document.getElementById("j1").firstElementChild;
   document.getElementById("j1").appendChild(carte1);
 }
+deplacerCarte();
